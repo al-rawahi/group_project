@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinAIengine</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css" media="screen"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="logo">
+                <img src="../images/trade-in-logo.png" alt="Trade-In logo" height="100px" width="200px">
+            </section>
+            <section class="navBar">
+                <a class="navElement" href="../index.html">Home</a>
+                <a class="navElement" href="./contact.html">Contact</a>
+                <a class="navElement" href="./about.html">About</a>
+                <a class="navElement" href="./login.html">Account</a>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <section class="page_title">
+            <h1>Fin - AI Engine</h1>
+        </section>
+        <section class="black_rectangle_50_vertical_small">
+            <form method="post" action="https://webdevcit.com/displayvalues.php" target="_blank">
+                <label>Select a Share or an Asset:</label>
+                <section class="customized-select">
+				    <select name="selected share or asset">
+					    <option value="apple">Apple</option>
+					    <option value="amazon">Amazon</option>
+					    <option value="Microsoft">Microsoft</option>
+					    <option value="Dell">Dell</option>
+				    </select>
+                </section>
+                <label>Select Date Range:</label>
+                <section class="from-to">
+                    <label>From</label>
+                    <input class="custom-input" type="date" name="from date">
+                    <label>To</label>
+                    <input class="custom-input" type="date" name="to date">
+                </section>
+                <button class="prices_button" type="submit">View Predicted Prices</button>
+            </form>
+        </section>
+        <section class="backButtonBox">
+            <a class="backToHomepage" href="./userHomepage.html">Back to Homepage</a>
+        </section>
+    </main>
+    <footer>
+        <small>Copyright &copy; 2022 Trade-In</small>
+    </footer>
+</body>
+</html>
